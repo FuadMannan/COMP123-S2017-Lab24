@@ -22,7 +22,10 @@ namespace COMP123_S2017_Lesson9B
             superHero.AddPower("Webcasting", 40);
             Console.WriteLine(superHero.ToString());
 
-
+            SuperVillain superVillain = new SuperVillain("Bodmon", 40);
+            superVillain.AddPower("Bad Breath", 80);
+            superVillain.AddPower("Disregard for human life", 200);
+            Console.WriteLine(superVillain);
         }
     }
 }
